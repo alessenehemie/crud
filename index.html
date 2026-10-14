@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head> 
+    <meta charset = UTF-8>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+    <body>
+        <form action="code.php" method = "POST">
+          <p>  
+            <label for="nom" >nom</label>
+             <input type="text" name = "nom" id = "nom" placeholder="konan">
+          </p>
+          <p>  
+              <label for="prenom" name =" prenom">prenom</label>
+               <input type="text" name = "prenom" id = "prenom" placeholder="jean marc" required>
+         </p>
+            <p>  
+                 <label for="age " name =" age">age</label>
+                 <input type="number" name = "age" id= "age" placeholder= "19" required>
+          </p>
+             <p>  
+                   <label for="email " name ="email">email</label>
+                   <input type="email" name = "email" id = "email" placeholder= "konanjnmarc16@gmail.com" required >
+             </p>
+             <p>  
+                   <label for="numero " name ="numero">numero</label>
+                   <input type="tel" name = "numero" id = "numero" placeholder= "0769583494" required >
+             </p>
+            <p>  
+                 <button type ="submit" name = "enregistrer">enregistrer</button>
+           </p>
+             <a href="read.php">Voir la liste</a>
+        </form>
+        
+    
+    </body>
+    
+
+
+</html>
